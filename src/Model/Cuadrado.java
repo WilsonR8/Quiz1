@@ -11,31 +11,30 @@ public class Cuadrado extends Figura{
 
 	
 public void paintCu() {
-	app.color(246,248,118);
-	app.rect(posX, posY, tam, dir);
+	app.fill(246,248,118);
+	app.rect(posX, posY, tam, tam);
 	
 }
 
 public void moveCu() {
-	int mx=10;
-	int my=10;
-		posX = posX + mx;
-		posY = posY + my;
+
+		posX = posX + dir;
+	
 		
-	if (posX > app.width) {
-		mx = -10;
+	if (posX > 500) {
+		dir = -1;
 	}
 	
-	if(posY> app.height) {
-		my = -10;
+	if(posY > 500) {
+		dir = -1;
 	}
 	
 	if( posX<0) {
-		mx = 10;
+		dir = 1;
 		}
 	
 	if(posY < 0) {
-		my= 10;
+		dir= 1;
 	}
 }
 	

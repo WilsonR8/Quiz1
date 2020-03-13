@@ -23,8 +23,8 @@ public class ScreenControl {
 	
 	
 	public void paintControl() {
-		LogicControl.paintLogic();
-		
+		LogicControl.paintLog();
+		LogicControl.moveLog();
 		
 	}
 

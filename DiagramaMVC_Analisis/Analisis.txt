@@ -1,0 +1,17 @@
+Diseñando con algoritmos
+Quiz 1
+
+
+Analisis de software 
+
+Requerimienos funcionales:
+R1: El programa debe cargar un txt con la informacion de las figuras.
+R2: El programa debe tener 3 figuras en el liezo.
+R3: Las figuras deben rebotar contra el lienzo y cambiar a la direccion opuesta. 
+R4: Las figuras deben cambiar de direccion si chocan ontra otras figuras. 
+R5: Las figuras deben deternerse al dar click sobre ellas. 
+R6: El programa debe ser desarrollado en Java. 
+
+Requerimientos no funcionales:
+RnF1:Las figuras deben tener colores diferentes. 
+RnF2: 
